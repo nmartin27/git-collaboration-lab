@@ -8,7 +8,7 @@ function PetSearch() {
   const handleSearch = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`http://localhost:3000=${query}`);
+      const response = await fetch(`http://localhost:3000/pets?query=${encodeURIComponent(query)}`);
       if (!response.ok) {
         throw new Error('Error fetching pets');
       }

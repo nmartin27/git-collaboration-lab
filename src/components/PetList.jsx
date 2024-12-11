@@ -8,7 +8,7 @@ const PetList = ({pets}) => {
             <ul>
                 {pets.map((pet) => (
                     <li key={pet.name}>
-                        <PetCard pet={pet} />
+                        <PetCard pets={pet} />
                     </li>
                 ))}
             </ul>

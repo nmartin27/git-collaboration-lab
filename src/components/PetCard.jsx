@@ -1,6 +1,6 @@
 // show specific pet
 
-const PetCard = ({pet}) => {
+const PetCard = ({pets}) => {
     return (
         <>
             <h2>Pets</h2>
