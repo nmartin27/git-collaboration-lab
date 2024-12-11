@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+// import { useState, useEffect } from 'react'
 import './App.css';
 import PetSearch from './components/PetSearch.jsx';
 
